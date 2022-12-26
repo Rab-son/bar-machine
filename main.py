@@ -16,6 +16,7 @@ def deposit():
     return amount
 
 
+def get_number_of_lines():
 
 
 def main():
