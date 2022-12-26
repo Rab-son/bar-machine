@@ -53,6 +53,5 @@ def main():
     total_bet = bet * lines
 
     print(f"You are betting ${bet} on {lines} lines. Total bet is qual to: ${total_bet}")
-    print(balance, lines)
 
 main()
