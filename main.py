@@ -53,11 +53,11 @@ def main():
         bet = get_bet()
         total_bet = bet * lines
 
-        if total_bet > balance
+        if total_bet > balance:
             print("You do not have enought to bet that amount, your current balance is: ${balance}")
         else:
             break
-            
+
     print(f"You are betting ${bet} on {lines} lines. Total bet is qual to: ${total_bet}")
 
 main()
