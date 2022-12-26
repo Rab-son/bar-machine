@@ -19,16 +19,16 @@ def deposit():
 def get_number_of_lines():
     while True:
         lines = input("Enter the number of line to bet on (1-" + str(MAX_LINES) + ")? ")
-        if amount.isdigit():
-            amount = int(amount)
-            if amount > 0:
+        if lines.isdigit():
+            lines = int(lines)
+            if 1 <= lines <= MAX_LINES:
                 break
             else:
-                print("Amount must be greater than 0.")
+                print("Enter a valid number of lines")
         else:
             print("Please enter a number.")
         
-    return amount
+    return lines
 
 
 
