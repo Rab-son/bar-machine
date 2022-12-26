@@ -32,6 +32,7 @@ def get_number_of_lines():
     return lines
 
 
+def get_bet():
 
 def main():
     balance = deposit()
